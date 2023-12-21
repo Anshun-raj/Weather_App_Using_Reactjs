@@ -1,0 +1,49 @@
+.app {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.search {
+  border: 2px solid #000;
+  width: 1200px;
+  padding: 15px;
+  font-size: larger;
+}
+
+.searchBox {
+  box-shadow: 1.5px 1.5px 1.5px 2px #ccc;
+
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  color: #fff;
+  background-color: slategray;
+  padding: 15px 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.resultData {
+  box-shadow: 1.5px 1.5px 1.5px 2px #ccc;
+  padding: 20px;
+}
+
+.temp {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.weatherType {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-around;
+  font-weight: 600;
+}
